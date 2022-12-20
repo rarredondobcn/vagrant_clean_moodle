@@ -1,9 +1,11 @@
 # Moodle limpio | Vagrant
+
+<p align="center"> 
+  <img width="600" height="200" src="https://www.emagister.com/assets/es/logos/centro/id/92772/size/1.jpg"> 
+</p>
+
 Este [Vagrant](https://developer.hashicorp.com/vagrant) crea un moodle limpio, que corre sobre un debian buster.
 Para modificar las versiones de php, de moodle, de mariadb hay que modificar el script.sh
-
-![Logo](https://www.emagister.com/assets/es/logos/centro/id/92772/size/l.jpg)
-
 
 ## Correr en local
 Instalar [VirtualBox 6.0 - 6.1](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1)
