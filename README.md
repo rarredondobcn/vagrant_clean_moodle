@@ -1,8 +1,25 @@
 # Moodle limpio | Vagrant
 ![Logo](https://www.emagister.com/assets/es/logos/centro/id/92772/size/l.jpg)
 
-Este [Vagrant](https://developer.hashicorp.com/vagrant) crea un moodle limpio, que corre sobre un debian buster.
-Para modificar las versiones de php, de moodle, de mariadb hay que modificar el script.sh
+Vagrant es una herramienta que permite la creación de entornos de desarrollo virtualizados que pueden ser reproducidos y compartidos de una forma muy sencilla.
+
+## Contenido
+Este [Vagrant](https://developer.hashicorp.com/vagrant) contiene lo siguiente:
+- Debian 10 Buster
+- [Moodle 3.11](https://github.com/moodle/moodle.git)
+- Php 7.3
+- Mariadb
+- Git
+
+## Configuraciones realizadas
+Este vagrant está configurado para corer sobre la url [moodle.test](http://moodle.test) que previamente hay que configurar dentro de nuestro archivo hosts apuntando al 192.168.0.10.
+
+Puede ser utilizado con cualquier herramienta de diseño de base de datos como workbench o navicat, conectándose con el host 192.168.0.10 user: moodle, password moodle con el puerto 3306.
+
+Tiene instalado git, dentro de la máquina para poder descargar cualquier repo desde dentro sin necesidad de instalarlo por fuera.
+
+Configurada con hora de Santiago de Chile dentro del server.
+
 
 ## Correr en local
 Instalar [VirtualBox 6.0 - 6.1](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1)
