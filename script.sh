@@ -166,3 +166,9 @@ sudo systemctl restart apache2
 sudo a2dissite 000-default
 sudo a2ensite moodle.test.conf
 sudo systemctl reload apache2
+
+#Necesaria esta librería para la biblioteca
+sudo apt-get install ffmpeg
+
+#ver procesos y memoria
+sudo apt-get install htop
